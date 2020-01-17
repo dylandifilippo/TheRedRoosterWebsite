@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+/*--------Global--------*/
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+html {
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+}
+
+body{
+  width: 70%;
+  margin: auto;
+}
+
+h1{
+  font-size: 50px;
+  font-weight: 400;
+}
+
+h2{
+  font-size: 45px;
+}
+
+h3{
+  font-size: 25px;
+}
+
+p{
+  font-size: 26px;
+  margin-top: 5px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/*--------Nav--------*/
+
+.nav {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-r > h3 {
+  display: inline;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/*--------Hero--------*/
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50vh;
+  margin-top: 100px;
+  margin-bottom: 200px;
+}
+
+.hero > h1 {
+  text-align: center;
+}
+
+/*--------About--------*/
+
+.about {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin-bottom: 200px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.neutral {
+  padding-bottom: 30px;
+  align-self: center;
+}
+
+.blue{
+  width: 500px;
+  border: 10px solid rgb(0, 122, 255);
+  background: #007AFF;
+  border-radius: 35px;
+  color: white;
+  text-align: center;
+  align-self: flex-end;
+  font-size: 30px;
+}
+
+.grey {
+  border: 10px solid rgb(142, 142, 147);
+  width: 500px;
+  background: #8E8E93;
+  border-radius: 35px;
+  color: white;
+  text-align: center;
+  align-self: flex-start;
+  font-size: 30px;
+}
+
+/*--------Instructors--------*/
+
+/*--------Gallery--------*/
+
+/*--------Contact--------*/
+
+/*--------Footer--------*/
