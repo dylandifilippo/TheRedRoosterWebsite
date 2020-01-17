@@ -78,7 +78,7 @@ p{
 
 /*--------About--------*/
 
-.about {
+.clean {
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -88,8 +88,12 @@ p{
   margin-right: auto;
 }
 
+.about > p{
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+}
+
 .neutral {
-  padding-bottom: 30px;
+  padding-bottom: 50px;
   align-self: center;
 }
 
@@ -116,6 +120,43 @@ p{
 }
 
 /*--------Instructors--------*/
+
+.instructors h1{
+  margin-bottom: 40px;
+}
+
+.instructors > .professor > .image > img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  margin-right: 30px;
+  margin-left: 10px;
+}
+
+.professor {
+  margin-bottom: 30px;
+}
+
+.pierre {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sebastien{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.sebastien h2 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.sebastien p {
+  text-align: right;
+}
 
 /*--------Gallery--------*/
 
