@@ -121,8 +121,13 @@ p{
 
 /*--------Instructors--------*/
 
+.instructors {
+  height: 100vh;
+}
+
 .instructors h1{
   margin-bottom: 40px;
+  margin-top: 40px;
 }
 
 .instructors > .professor > .image > img {
@@ -159,6 +164,24 @@ p{
 }
 
 /*--------Gallery--------*/
+
+.gallery {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  margin-bottom: 100px;
+}
+
+.gallery h1{
+  margin-bottom: 50px;
+}
+
+.gallery img {
+  width: 100%;
+}
 
 /*--------Contact--------*/
 
