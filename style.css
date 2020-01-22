@@ -172,7 +172,7 @@ p{
   align-items: center;
   flex-direction: column;
   height: 100vh;
-  margin-bottom: 100px;
+  margin-bottom: 200px;
 }
 
 .gallery h1{
@@ -185,4 +185,43 @@ p{
 
 /*--------Contact--------*/
 
+#contact {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.contact {
+  height: 85vh;
+}
+
+#map {
+  height: 500px;
+  width: 50%;
+}
+
+.contact-flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+.infos {
+ height: 500px;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+}
+
 /*--------Footer--------*/
+
+.footer {
+  text-align: center;
+  margin-bottom: 80px;
+  font-size: 2em;
+}
+
+.footer a {
+  color: #FE251B;
+  text-decoration: none;
+}

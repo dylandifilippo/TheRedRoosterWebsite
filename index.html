@@ -29,16 +29,16 @@
 
     <div class="about clean">
       <h1 class="neutral">À PROPOS</h1>
-      <p class="blue">Tu connais le jjb toi ?</p>
+      <p class="blue">Tu connais le JJB toi ?</p>
       <p class="grey">Tu parles du jiu-jitsu
          brésilien ? 🤔</p>
       <p class="blue">Oui c’est ça, je suis tombé
          sur un site internet et ça
          m’intéresse! 💪🏼</p>
-      <p class="grey">Le BJJ c’est un art martial brésilien
+      <p class="grey">Le JJB, c’est un art martial brésilien
          dérivé de techniques de Judo et
          de Jiu-Jitsu importées du Japon
-         au Brésil vers 1920, puis développé
+         au Brésil,g vers 1920, puis développé
          par la famille Gracie.</p>
       <p class="blue">Et donc, quelle est la particularité de ce sport ?</p>
       <p class="grey">C’est une lutte au sol se pratiquant
@@ -46,7 +46,7 @@
          Chaque technique de finalisation se
          termine soit par un étranglement soit
          par une clef articulaire.</p>
-      <p class="blue">Ça a l’air intéressant, je vais aller essayer, en plus j’ai vu que je premier cours était offert! 😜</p>
+      <p class="blue">Ça a l’air intéressant, je vais aller essayer. En plus, j’ai vu que je premier cours était offert! 😜</p>
     </div>
 
     <div class="instructors clean">
@@ -56,7 +56,7 @@
           <img src="images/Pierre.jpg" alt="Pierre Henry">
         </div>
         <div class="pierre-txt">
-          <h2>Pierre henry</h2>
+          <h2>Pierre Henry</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet consequuntur, molestias id debitis nam consectetur dignissimos autem magni earum et atque perspiciatis soluta dicta laboriosam numquam nisi est animi ullam.</p>
         </div>
       </div>
@@ -74,7 +74,7 @@
           <img src="images/Maklouf.jpg" alt="Mklouf Gahloul">
         </div>
         <div class="pierre-txt">
-          <h2>Maklouf Gahloul</h2>
+          <h2>Maklouf Galoul</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet consequuntur, molestias id debitis nam consectetur dignissimos autem magni earum et atque perspiciatis soluta dicta laboriosam numquam nisi est animi ullam.</p>
         </div>
       </div>
@@ -106,21 +106,32 @@
     </div>
 
     <div class="contact">
-      <!-- Google map -->
-      <h2>Adresse</h2>
-      <p> 71, rue Centrale, 6240 Pironchamps</p>
-      <h2>Horaires</h2>
-      <p>Les cours sont dispensés de 19h à 21h</p>
-      <p>Lundi: NO-Gi (sans kimono)</p>
-      <p>Mercredi: Gi (en kimono)</p>
-      <p>Vendredi: déplacement du club à Uccle la PAT Academy</p>
-      <h2>Plus de renseignements</h2>
-      <p>Pierre Henry - 0478.67.73.55</p>
+      <h2 id="contact">Contact</h2>
+      <div class="contact-flex">
+        <div id="map"></div>
+          <div class="infos">
+            <div class="block-1">
+              <h2>Adresse</h2>
+              <p> 71, rue Centrale, 6240 Pironchamps</p>
+            </div>
+            <div class="block-2">
+            <h2>Horaires</h2>
+              <p>Les cours sont dispensés de 19h à 21h</p>
+              <p>Lundi: NO-Gi (sans kimono)</p>
+              <p>Mercredi: Gi (en kimono)</p>
+              <p>Vendredi: déplacement du club à Uccle la PAT Academy</p>
+            </div>
+            <div class="block-3">
+              <h2>Plus de renseignements</h2>
+              <p>Pierre Henry - 0478.67.73.55</p>
+            </div>
+          </div>
+      </div>
     </div>
 
     <div class="footer">
-      <h5>Made with ❤ by️
-          ddmarketing.agency
+      <h5>Made with ❤️ by️
+          <a href="http://ddmarketing.agency/">ddmarketing.agency</a>
       </h5>
     </div>
 </body>
@@ -128,9 +139,28 @@
 <script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>
 <script>
   const config = {
-    type: 'carousel',
-    perView: 2,
+    type: 'slider',
+    perView: 1,
+    autoplay: 2000,
+    hoverpause: true,
   }
   new Glide('.glide', config).mount ();
+</script>
+
+<script>
+// Initialize and add the map
+function initMap() {
+  // The location of Uluru
+  var gym = {lat: 50.433571, lng: 4.526110};
+  // The map, centered at Uluru
+  var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 15, center: gym});
+  // The marker, positioned at Uluru
+  var marker = new google.maps.Marker({position: gym, map: map});
+}
+</script>
+
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDBytZVwTAyTtQ3N5HqXXRkDUYHE4Mo0rI&callback=initMap"
+  type="text/javascript">
 </script>
 </html>
