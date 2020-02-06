@@ -242,6 +242,8 @@ a:visited {
 
 /*--------Responsive--------*/
 
+/* ----------- iPhone X ----------- */
+
 @media only screen
   and (min-device-width: 375px)
   and (max-device-width: 812px)
@@ -400,5 +402,36 @@ a:visited {
     margin-bottom: 20px;
     font-size: 1em;
   }
+
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+
+    /*--------Instructors--------*/
+
+  .instructors {
+    height: 115vh;
+  }
+
+  .sebastien p {
+    text-align: center;
+  }
+
+/*--------Gallery--------*/
+
+  .gallery {
+    height: 50vh;
+    margin-bottom: 30px;
+  }
+
+  .contact {
+    margin-bottom: 60px;
+  }
+
 
 }
