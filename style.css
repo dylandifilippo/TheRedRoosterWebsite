@@ -274,6 +274,10 @@ label {
   and (max-device-width: 812px)
   and (-webkit-min-device-pixel-ratio: 3) {
 
+
+  body {
+    width: 90%;
+  }
 /*--------Font--------*/
 
   h1 {
@@ -437,12 +441,15 @@ label {
   and (max-device-width: 736px)
   and (-webkit-min-device-pixel-ratio: 3) {
 
+  body {
+    width: 90%;
+  }
 
 
     /*--------Instructors--------*/
 
   .instructors {
-    height: 140vh;
+    height: 120vh;
     margin-bottom: 35px;
   }
 
