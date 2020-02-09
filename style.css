@@ -442,7 +442,8 @@ label {
     /*--------Instructors--------*/
 
   .instructors {
-    height: 105vh;
+    height: 140vh;
+    margin-bottom: 35px;
   }
 
   .sebastien p {
@@ -452,8 +453,8 @@ label {
     /*--------Gallery--------*/
 
   .gallery {
-    height: 80vh;
-    margin-bottom: 30px;
+    height: 50vh;
+    margin-bottom: 50px;
   }
 
   .contact {
