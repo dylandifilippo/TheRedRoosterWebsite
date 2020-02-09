@@ -207,7 +207,7 @@ label {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 100vh;
+  height: 80vh;
   margin-bottom: 200px;
 }
 
@@ -230,6 +230,9 @@ label {
   height: 85vh;
 }
 
+#first-h2{
+  margin-bottom: 40px;
+}
 .contact iframe {
   width: 600px;
   height: 500px;
@@ -434,10 +437,12 @@ label {
   and (max-device-width: 736px)
   and (-webkit-min-device-pixel-ratio: 3) {
 
+
+
     /*--------Instructors--------*/
 
   .instructors {
-    height: 115vh;
+    height: 105vh;
   }
 
   .sebastien p {
@@ -447,7 +452,7 @@ label {
     /*--------Gallery--------*/
 
   .gallery {
-    height: 50vh;
+    height: 80vh;
     margin-bottom: 30px;
   }
 
