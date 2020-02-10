@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Nunito|Roboto&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Yeseva+One|Roboto&display=swap');
 /*--------Global--------*/
 
 * {
@@ -17,7 +16,7 @@ html {
 }
 
 h1, h2, h3, h4, h5 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Yeseva One', cursive;
 }
 
 body{
@@ -41,7 +40,7 @@ h3{
 p{
   font-size: 26px;
   margin-top: 5px;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .clearfix::after {
@@ -60,6 +59,7 @@ a:visited {
 .nav-burger{
   text-align: right;
   line-height: 70px;
+  margin-top: 20px;
 }
 
 .nav-burger h2 {
@@ -73,9 +73,11 @@ a:visited {
 .menu a {
   clear: right;
   text-decoration: none;
-  color: gray;
+  color: black;
   margin: 0 10px;
   line-height: 70px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5em;
 }
 
 label {
@@ -476,6 +478,10 @@ label {
   label {
     display: block;
     cursor: pointer;
+  }
+
+  .nav-burger {
+    margin-top: 0px;
   }
 
   .menu {
