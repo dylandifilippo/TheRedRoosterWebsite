@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -9,136 +10,147 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
 
-    <div class="nav-burger">
-      <h2>TRRA</h2>
-      <label for="toggle">&#9776;</label>
-      <input type="checkbox" id="toggle">
-      <div class="menu">
-        <a href="#about">À propos</a>
-        <a href="#instructors">Nos instructeurs</a>
-        <a href="#gallery">Galerie</a>
-        <a href="#contact">Contact</a>
+  <div class="nav-burger">
+    <h2>TRRA</h2>
+    <label for="toggle">&#9776;</label>
+    <input type="checkbox" id="toggle">
+    <div class="menu">
+      <a href="#about">À propos</a>
+      <a href="#instructors">Nos instructeurs</a>
+      <a href="#gallery">Galerie</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+
+  <div class="hero">
+    <iframe src="https://www.youtube.com/embed/IyH6MHJayvE" frameborder="0"
+      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+    </iframe>
+    <h1>Le <strong>Jiu-jitsu brésilien</strong> <br> plus qu'un sport, un art de vivre.</h1>
+  </div>
+
+  <div class="about clean" id="about">
+    <h1 class="neutral">À PROPOS</h1>
+    <p class="blue">Tu connais le JJB toi ?</p>
+    <p class="grey">Tu parles du jiu-jitsu
+      brésilien ? 🤔</p>
+    <p class="blue">Oui c’est ça, je suis tombé
+      sur un site internet et ça
+      m’intéresse! 💪🏼</p>
+    <p class="grey">Le JJB, c’est un art martial brésilien
+      dérivé de techniques de Judo et
+      de Jiu-Jitsu importées du Japon
+      au Brésil,g vers 1920, puis développé
+      par la famille Gracie.</p>
+    <p class="blue">Et donc, quelle est la particularité de ce sport ?</p>
+    <p class="grey">C’est une lutte au sol se pratiquant
+      traditionnellement avec un kimono.
+      Chaque technique de finalisation se
+      termine soit par un étranglement soit
+      par une clef articulaire.</p>
+    <p class="blue">Ça a l’air intéressant, je vais aller essayer. En plus, j’ai vu que je premier cours était offert!
+      😜</p>
+  </div>
+
+  <div class="instructors clean" id="instructors">
+    <h1 class="neutral">NOS INSTRUCTEURS</h1>
+    <div class="pierre professor">
+      <div class="image">
+        <img src="images/Pierre.jpg" alt="Pierre Henry">
+      </div>
+      <div class="pierre-txt">
+        <h2>Pierre Henry</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet consequuntur, molestias id debitis nam
+          consectetur dignissimos autem magni earum et atque perspiciatis soluta dicta laboriosam numquam nisi est animi
+          ullam.</p>
+      </div>
+    </div>
+    <div class="sebastien professor">
+      <div class="image">
+        <img src="images/Sebastien.jpg" alt="Sébastien Fallabretti">
+      </div>
+      <div class="seb-text">
+        <h2>Sébastien Fallabretti</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet consequuntur, molestias id debitis nam
+          consectetur dignissimos autem magni earum et atque perspiciatis soluta dicta laboriosam numquam nisi est animi
+          ullam.</p>
+      </div>
+    </div>
+    <div class="pierre professor">
+      <div class="image">
+        <img src="images/Maklouf.jpg" alt="Mklouf Gahloul">
+      </div>
+      <div class="pierre-txt">
+        <h2>Maklouf Galoul</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet consequuntur, molestias id debitis nam
+          consectetur dignissimos autem magni earum et atque perspiciatis soluta dicta laboriosam numquam nisi est animi
+          ullam.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="gallery" id="gallery">
+    <h1>GALERIE</h1>
+    <div class="glide">
+      <div class="glide__track" data-glide-el="track">
+        <ul class="glide__slides">
+          <li class="glide__slide"><img src="images/armControl.png" alt=""></li>
+
+          <li class="glide__slide"><img src="images/bobSapp.png" alt=""></li>
+
+          <li class="glide__slide"><img src="images/crossChoke.png" alt=""></li>
+
+          <li class="glide__slide"><img src="images/guardChoke.png" alt=""></li>
+
+          <li class="glide__slide"><img src="images/kimura.png" alt=""></li>
+
+        </ul>
+      </div>
+      <div class="glide__arrows" data-glide-el="controls">
+        <button class="glide__arrow glide__arrow--left" data-glide-dir="<">◀️</button>
+        <button class="glide__arrow glide__arrow--right" data-glide-dir=">">▶️</button>
       </div>
     </div>
 
-    <div class="hero">
-      <iframe src="https://www.youtube.com/embed/IyH6MHJayvE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-      </iframe>
-      <h1>Le <strong>Jiu-jitsu brésilien</strong> <br> plus qu'un sport, un art de vivre.</h1>
-    </div>
+  </div>
 
-    <div class="about clean" id="about">
-      <h1 class="neutral">À PROPOS</h1>
-      <p class="blue">Tu connais le JJB toi ?</p>
-      <p class="grey">Tu parles du jiu-jitsu
-         brésilien ? 🤔</p>
-      <p class="blue">Oui c’est ça, je suis tombé
-         sur un site internet et ça
-         m’intéresse! 💪🏼</p>
-      <p class="grey">Le JJB, c’est un art martial brésilien
-         dérivé de techniques de Judo et
-         de Jiu-Jitsu importées du Japon
-         au Brésil,g vers 1920, puis développé
-         par la famille Gracie.</p>
-      <p class="blue">Et donc, quelle est la particularité de ce sport ?</p>
-      <p class="grey">C’est une lutte au sol se pratiquant
-         traditionnellement avec un kimono.
-         Chaque technique de finalisation se
-         termine soit par un étranglement soit
-         par une clef articulaire.</p>
-      <p class="blue">Ça a l’air intéressant, je vais aller essayer. En plus, j’ai vu que je premier cours était offert! 😜</p>
-    </div>
-
-    <div class="instructors clean" id="instructors">
-      <h1 class="neutral">NOS INSTRUCTEURS</h1>
-      <div class="pierre professor">
-        <div class="image">
-          <img src="images/Pierre.jpg" alt="Pierre Henry">
-        </div>
-        <div class="pierre-txt">
-          <h2>Pierre Henry</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet consequuntur, molestias id debitis nam consectetur dignissimos autem magni earum et atque perspiciatis soluta dicta laboriosam numquam nisi est animi ullam.</p>
-        </div>
+  <div class="contact" id="contact">
+    <h2 id="first-h2">Contact</h2>
+    <div class="contact-flex">
+      <div class="gmap_canvas" id="maps">
+        <iframe id="gmap_canvas"
+          src="https://maps.google.com/maps?q=rue%20centrale%2071%20farciennes&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+        </iframe>
       </div>
-      <div class="sebastien professor">
-        <div class="image">
-          <img src="images/Sebastien.jpg" alt="Sébastien Fallabretti">
+      <div class="infos">
+        <div class="block-1">
+          <h2>Adresse</h2>
+          <p> Rue Centrale 71, 6240 Pironchamps</p>
         </div>
-        <div class="seb-text">
-          <h2>Sébastien Fallabretti</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet consequuntur, molestias id debitis nam consectetur dignissimos autem magni earum et atque perspiciatis soluta dicta laboriosam numquam nisi est animi ullam.</p>
+        <div class="block-2">
+          <h2>Horaires</h2>
+          <p>Les cours sont dispensés de 19h à 21h</p>
+          <p>Lundi: NO-Gi (sans kimono)</p>
+          <p>Mercredi: Gi (en kimono)</p>
+          <p>Vendredi: déplacement du club à Uccle la PAT Academy</p>
         </div>
-      </div>
-      <div class="pierre professor">
-        <div class="image">
-          <img src="images/Maklouf.jpg" alt="Mklouf Gahloul">
-        </div>
-        <div class="pierre-txt">
-          <h2>Maklouf Galoul</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet consequuntur, molestias id debitis nam consectetur dignissimos autem magni earum et atque perspiciatis soluta dicta laboriosam numquam nisi est animi ullam.</p>
+        <div class="block-3">
+          <h2>Plus de renseignements</h2>
+          <p>Pierre Henry - 0478.67.73.55</p>
         </div>
       </div>
     </div>
+  </div>
 
-    <div class="gallery" id="gallery">
-      <h1>GALERIE</h1>
-      <div class="glide">
-        <div class="glide__track" data-glide-el="track">
-          <ul class="glide__slides">
-            <li class="glide__slide"><img src="images/armControl.png" alt=""></li>
-
-            <li class="glide__slide"><img src="images/bobSapp.png" alt=""></li>
-
-            <li class="glide__slide"><img src="images/crossChoke.png" alt=""></li>
-
-            <li class="glide__slide"><img src="images/guardChoke.png" alt=""></li>
-
-            <li class="glide__slide"><img src="images/kimura.png" alt=""></li>
-
-          </ul>
-        </div>
-        <div class="glide__arrows" data-glide-el="controls">
-          <button class="glide__arrow glide__arrow--left" data-glide-dir="<"><</button>
-          <button class="glide__arrow glide__arrow--right" data-glide-dir=">">></button>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="contact" id="contact" >
-      <h2 id="first-h2">Contact</h2>
-      <div class="contact-flex">
-          <div class="gmap_canvas" id="maps">
-            <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=rue%20centrale%2071%20farciennes&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
-            </iframe>
-          </div>
-          <div class="infos">
-            <div class="block-1">
-              <h2>Adresse</h2>
-              <p> Rue Centrale 71, 6240 Pironchamps</p>
-            </div>
-            <div class="block-2">
-            <h2>Horaires</h2>
-              <p>Les cours sont dispensés de 19h à 21h</p>
-              <p>Lundi: NO-Gi (sans kimono)</p>
-              <p>Mercredi: Gi (en kimono)</p>
-              <p>Vendredi: déplacement du club à Uccle la PAT Academy</p>
-            </div>
-            <div class="block-3">
-              <h2>Plus de renseignements</h2>
-              <p>Pierre Henry - 0478.67.73.55</p>
-            </div>
-          </div>
-      </div>
-    </div>
-
-    <div class="footer">
-      <h5>Made with ❤️ by️
-          <a href="http://ddmarketing.agency/">ddmarketing.agency</a>
-      </h5>
-    </div>
+  <div class="footer">
+    <h5>Made with ❤️ by️
+      <a href="https://dylandifilippo.dev/" target="_blank">Dylan Di Filippo</a>
+    </h5>
+  </div>
 </body>
 
 <script src="glide/glide.min.js"></script>
@@ -148,7 +160,8 @@
     perView: 1,
     autoplay: 2000,
     hoverpause: true,
-  }
-  new Glide('.glide', config).mount ();
+  };
+  new Glide('.glide', config).mount();
 </script>
+
 </html>
